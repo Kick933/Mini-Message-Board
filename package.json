@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run build:css && node ./bin/www",
+    "start": "node ./bin/www",
     "dev": "nodemon build:css &&  ./bin/www ",
     "build:css": "npx tailwindcss -o ./public/stylesheets/style.css"
   },
